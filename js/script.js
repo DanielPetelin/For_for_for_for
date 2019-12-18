@@ -66,3 +66,10 @@ for (var i = 0; i <= 10; i++) {
     numb[i] = 'x';
 }
 console.log(numb);
+
+//Столбец чётных чисел до 100.
+for (var i = 0; i <= 100; i++) {
+    if (i % 2 == 0) {
+        console.log(i);
+    }
+}
