@@ -38,3 +38,9 @@ for (var i = 0; i < numb.length; i++) {
         console.log(numb[i]);
     }
 }
+
+var numb = [];
+for (var i = 0; i < 10; i++) {
+    numb.push(Math.round(Math.random() * 10) + 1);
+}
+console.log(numb);
