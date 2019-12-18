@@ -30,3 +30,10 @@ for (var i = 0; i < num.length; i++) {
         break;
     }
 }
+
+var numb = [10, 30, 2, 50, 6, 9];
+for (var i = 0; i < numb.length; i++) {
+    if (numb[i] > 0 && numb[i] < 10) {
+        console.log(numb[i]);
+    }
+}
