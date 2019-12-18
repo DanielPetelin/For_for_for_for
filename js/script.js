@@ -52,3 +52,10 @@ for (var i = 0; i < 10; i++) {
 	ar.push(Math.random().toFixed(2));
 }
 console.log(ar);
+
+//Цикл, который выводит последовательные числа до десяти в массив.
+var numb = [];
+for (var i = 0; i <= 10; i++) {
+    numb.push(i);
+}
+console.log(numb);
