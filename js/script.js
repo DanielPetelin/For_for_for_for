@@ -45,3 +45,9 @@ for (var i = 0; i < 10; i++) {
     numb.push(Math.round(Math.random() * 10) + 1);
 }
 console.log(numb);
+
+var ar = [];
+for (var i = 0; i < 10; i++) {
+	ar.push(Math.random().toFixed(2));
+}
+console.log(ar);
