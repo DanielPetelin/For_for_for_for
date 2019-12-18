@@ -21,3 +21,11 @@ for (var i = 0; i < num.length; i++) {
     summa += num[i] / num.length;
 }
 console.log(summa);
+
+var num = [1, 3, 2, 5, 6];
+for (var i = 0; i < num.length; i++) {
+    if(num[i] == 5) {
+        console.log('Есть!');
+        break;
+    }
+}
