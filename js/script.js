@@ -39,6 +39,7 @@ for (var i = 0; i < numb.length; i++) {
     }
 }
 
+//Цикл, который выводит 10 рандомных чисел в массив.
 var numb = [];
 for (var i = 0; i < 10; i++) {
     numb.push(Math.round(Math.random() * 10) + 1);
