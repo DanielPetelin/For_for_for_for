@@ -22,6 +22,7 @@ for (var i = 0; i < num.length; i++) {
 }
 console.log(summa);
 
+//Цикл, который выводит "есть", если в массиве присутствует цифра 5.
 var num = [1, 3, 2, 5, 6];
 for (var i = 0; i < num.length; i++) {
     if(num[i] == 5) {
