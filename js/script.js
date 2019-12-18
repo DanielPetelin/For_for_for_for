@@ -78,3 +78,8 @@ for (var i = 0; i <= 100; i++) {
 for (var i = 100; i >= 1; i--) {
     console.log(i);
 }
+
+//от 1 до 100.
+for (var i = 1; i <= 100; i++) {
+    console.log(i);
+}
