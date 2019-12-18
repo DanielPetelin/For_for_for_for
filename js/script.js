@@ -59,3 +59,10 @@ for (var i = 0; i <= 10; i++) {
     numb.push(i);
 }
 console.log(numb);
+
+//Цикл который заполняет массив 10 x.
+var numb = [];
+for (var i = 0; i <= 10; i++) {
+    numb[i] = 'x';
+}
+console.log(numb);
