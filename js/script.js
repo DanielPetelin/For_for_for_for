@@ -31,7 +31,8 @@ for (var i = 0; i < num.length; i++) {
     }
 }
 
-var numb = [10, 30, 2, 50, 6, 9];
+//Цикл, который выводит числа массива, которые больше 1 и меньше 10.
+var numb = [10, 3.9, 2, -5.2, 6, 9, -1, -50];
 for (var i = 0; i < numb.length; i++) {
     if (numb[i] > 0 && numb[i] < 10) {
         console.log(numb[i]);
